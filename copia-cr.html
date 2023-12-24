@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 de Agus</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background: #00a45312;
+        }
+        .cuenta-regresiva {
+            background: #00a453;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 1em;
+            padding: 0.5em;
+        }
+        .cr-time > span {
+            font-size: 42px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .cr-desc {
+            color: yellow;
+        }
+        .cr-block {
+            background: #0000002e;
+            border-radius: 10px;
+            padding: 0.5em 0.8em;
+        }
+        .foto{width: 100%;
+            background-color: yellowgreen;
+            padding: 10px;
+             display: flex;
+              text-align: center;
+             justify-content: center;
+         }
+         img{width: 50%;}
+         h2{color: red;
+        text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        
+    </style>
+    <div class="main">
+        <div class="restan">
+            <span><h2>Solo faltan...</h2></span>
+        </div>
+        <section class="cuenta-regresiva">
+            <div class="cr-block">
+                <div class="cr-time">
+                    <span id="cre-dia">
+                        00
+                    </span>
+                </div>
+                <div class="cr-desc">
+                    Dia
+                </div>
+            </div>
+            <div class="cr-block">
+                <div class="cr-time">
+                    <span id="cre-hora">
+                        00
+                    </span>
+                </div>
+                <div class="cr-desc">
+                    Hora
+                </div>
+            </div>
+            <div class="cr-block">
+                <div class="cr-time">
+                    <span id="cre-minuto">
+                        00
+                    </span>
+                </div>
+                <div class="cr-desc">
+                    Minuto
+                </div>
+            </div>
+            <div class="cr-block">
+                <div class="cr-time">
+                    <span id="cre-segundo">
+                        00
+                    </span>
+                </div>
+                <div class="cr-desc">
+                    Segundo
+                </div>
+            </div>
+        </section>
+        <div class="foto">
+            <img src="20181107_230516.jpg">
+        </div>
+
+    </div>
+    <script>
+        let diaEvento = new Date('Mar 16, 2024 21:00:00').getTime();
+
+        // diaEvento = new Date().getTime() + 1_000 * 20;
+
+        let relojE = document.getElementById('reloj');
+
+        const diaM = 86_400_000;
+        const horaM = 3_600_000;
+        const minutoM = 60_000;
+        const segundoM = 1_000;
+        const ejecutarReloj = setInterval(
+            () => {
+
+                let hoy = new Date().getTime();
+                let distancia = diaEvento - hoy;
+
+                let diaR = Math.trunc(distancia / diaM);
+
+                let horaR = Math.trunc((distancia % diaM) / horaM);
+
+                let minutoR = Math.trunc((distancia % horaM) / minutoM);
+
+                let segundoR = Math.trunc((distancia % minutoM) / segundoM);
+
+                if (distancia  < 1) {
+                    clearInterval(ejecutarReloj);
+                    diaEventoAhora();
+                }
+
+                pintarElementos(diaR, horaR, minutoR, segundoR);
+
+            }
+        , 1000);
+
+        let creDia = document.getElementById('cre-dia');
+        let creHora = document.getElementById('cre-hora');
+        let creMinuto = document.getElementById('cre-minuto');
+        let creSegundo = document.getElementById('cre-segundo');
+        function pintarElementos(dia, hora, minuto, segundo) {
+
+            segundo = (segundo < 10) ? '0' + segundo : segundo;
+
+            minuto = (minuto < 10) ? '0' + minuto : minuto;
+
+            hora = (hora < 10) ? '0' + hora : hora;
+
+            creDia.innerHTML = dia;
+            creHora.innerHTML = hora;
+            creMinuto.innerHTML = minuto;
+            creSegundo.innerHTML = segundo;
+        }
+
+        function diaEventoAhora () {
+            alert('Es hoy, es hoy...!!!');
+            // Todo el codigo cuando el evento llegue
+        }
+
+    </script>
+</body>
+</html>
