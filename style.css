@@ -62,7 +62,7 @@ body {
      text-align: center;
     justify-content: center;
 }
-i{bacground-color:#5FFC7B;}
+.fa-brands {color: #5FFC7B}
 
 @media screen and (max-width:400px){
     .galeria{
