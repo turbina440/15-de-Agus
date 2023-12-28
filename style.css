@@ -67,7 +67,7 @@ body {
 .redes li{display: inline-block;
     padding: 10px;
     top: 10px;
-.fa-brands {color: #5FFC7B}
+.fa-brands {color: green}
 
 @media screen and (max-width:400px){
     .galeria{
