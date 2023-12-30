@@ -63,10 +63,10 @@ body {
     justify-content: center;
 }
 .whtsp{width: 100%;
-	text-align: center;
+	text-align: center;}
 .redes li{display: inline-block;
     padding: 10px;
-    top: 10px;
+    top: 10px;}
 .fa-whatsapp {color: green}
 
 @media screen and (max-width:400px){
