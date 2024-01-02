@@ -1,12 +1,12 @@
 
-
 body {
             margin: 0;
+            padding: 0;
             font-family: sans-serif;
-            background: #00a45312;
+            background: snow;
         }
         .cuenta-regresiva {
-            background: #00a453;
+            background: #534a7a;
             display: flex;
             text-align: center;
             justify-content: center;
@@ -19,10 +19,10 @@ body {
             color: #fff;
         }
         .cr-desc {
-            color: yellow;
+            color: lightpink;
         }
         .cr-block {
-            background: #0000002e;
+            background: #8174b4;
             border-radius: 10px;
             padding: 0.5em 0.8em;
         }
@@ -33,9 +33,12 @@ body {
              
          }*/
          img{width: 50%;}
-         h2{color: red;
+         h2{color: #C2BCDB;
         text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    font-family: Brush Script MT , Geneva, Tahoma, sans-serif ;
+    margin-bottom: 0px;
+    padding: 10px 10px;
+    margin-top: 0px;}
 
     .galeria{
 
@@ -45,13 +48,13 @@ body {
     position: relative;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-
+    text-align: center;
 
 
     
 }
 
-
+.elementor-row{text-align: center;}
 .galeria__imagen{
     width: 100%;
     left: 0;
@@ -61,30 +64,95 @@ body {
     object-fit: cover;
      text-align: center;
     justify-content: center;
+   
 }
-.whtsp{width: 100%;
-	text-align: center;}
-.redes li{display: inline-block;
-    padding: 10px;
-    top: 10px;}
-.fa-whatsapp {color: green}
+/*nuevas fotos*/
+.slider{width: 100%;
+height: 600px;
+overflow: hidden;}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+25%{margin-left: -100;}
+45%{margin-left: -100;}
+50%{margin-left: -200;}
+70%{margin-left: 200;}
+75%{margin-left: -300;}
+100%{margin-left: -300;}
+
+}
+.restan{
+    text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+    background-color: #534a7a;
+    padding: 0;
+
+
+}
+main {text-align: center;
+display:    none;}
+h2{
+color: white;}
+IFRAME{width: 300PX}
+
+ .corazon img{width: 400px;
+     animation:beat 1s linear infinite;}
+
+    @keyframes beat{
+        0%{transform:scale(0.75 );opacity: 0.5;background: SNOW
+        }
+        50%{transform:scale(1);opacity:1;background: SNOW;
+
+        }
+        100%{transform:scale(0.75);opacity:0.5;background: SNOW;
+
+        }
+    }
+button{background: blueviolet;
+color: white;
+box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
+
 
 @media screen and (max-width:400px){
     .galeria{
-        width: 300px;
+        object-fit: coverfont ;
+        text-align: center;
+
     }
+    .cr-time > span{ font-size: 30px;}
+    .cr-block {
+            
+            border-radius: 10px;
+            padding: 0.3em 0.5em;
+
 
 }
-	  .fa-whatsapp{ width:10px;
-    }
 
-    .whtsp{width: 100%;
+/*whatsapp y corazon*/
+
+ .whtsp{width: 100%;
         height: 10px;
+        padding-top: 10px;
         text-align: center;
-        background: snow  ; 
+        background: snow  ;
+
+       
     }
-	  
-    p {background: snow;}
+    p {background: snow;
+    font-family: Brush Script MT}
 
     .dd {background: snow}
 
@@ -96,7 +164,7 @@ body {
         text-align: center;
      }
 
-     .corazon img{width: 100px;
+     .corazon img{width: 200px;
      animation:beat 1s linear infinite;}
 
     @keyframes beat{
@@ -110,4 +178,4 @@ body {
         }
     }
     .c2 {background: yellow;}
-        
+      }  
