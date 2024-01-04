@@ -20,6 +20,7 @@ body {
         }
         .cr-desc {
             color: lightpink;
+                    font-size: 12px
         }
         .cr-block {
             background: #8174b4;
@@ -132,6 +133,10 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
         text-align: center;
 
     }
+      .cr-desc {
+           
+                    font-size: 12px
+        }
     .cr-time > span{ font-size: 10px;}
     .cr-block {
             
