@@ -127,7 +127,7 @@ color: white;
 box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
 
 
-@media screen and (max-width:350px){
+@media screen and (max-width:300px){
     .galeria{
         object-fit: cover ;
         text-align: center;
@@ -135,9 +135,9 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
     }
       .cr-desc {
            
-                    font-size: 12px
+                    font-size: 10px
         }
-    .cr-time > span{ font-size: 20px;}
+    .cr-time > span{ font-size: 15px;}
     .cr-block {
             
             border-radius: 10px;
@@ -185,7 +185,7 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
     .c2 {background: yellow;}
       }  
 
-@media screen and (max-width:350px)and(min-width:500px){
+@media screen and (max-width:300px)and(min-width:500px){
     .galeria{
         object-fit: cover ;
         text-align: center;
