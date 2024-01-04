@@ -74,7 +74,7 @@ overflow: hidden;}
 .slider ul{
     display: flex;
     animation: cambio 20s infinite alternate linear;
-    width: 400%;
+    width: 300%;
 }
 .slider li{
     width: 100%;
