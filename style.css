@@ -16,18 +16,18 @@ body {
             padding: 0.5em;
         }
         .cr-time > span {
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
             color: #fff;
         }
         .cr-desc {
-            color: lightpink;font-size: 15px;
+            color: lightpink;font-size: 10px;
 
         }
         .cr-block {
             background: #8174b4;
             border-radius: 10px;
-            padding: 0.3em 0.3em;
+            padding: 0.1em 0.3em;
         }
         p{font-family: Brush Script MT}
         /*.foto{width: 100%;
@@ -42,7 +42,8 @@ body {
     font-family: Brush Script MT , Geneva, Tahoma, sans-serif ;
     margin-bottom: 0px;
     padding: 10px 10px;
-    margin-top: 0px;}
+    margin-top: 0px;
+font-size: 10px}
 
     .galeria{
 
@@ -58,7 +59,8 @@ body {
     
 }
 
-.elementor-row{text-align: center;}
+.elementor-row{text-align: center;
+}
 .galeria__imagen{
     width: 100%;
     left: 0;
@@ -113,7 +115,7 @@ h2{
 color: white;}
 IFRAME{width: 300PX}
 
- .corazon img{width: 200px;
+ .corazon img{width: 150px;
      animation:beat 1s linear infinite;}
 
     @keyframes beat{
@@ -130,7 +132,7 @@ button{background: blueviolet;
     margin-top: 20px ;
 color: white;
 box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
-img{width: 200px;
+img{width: 500px;
 margin-top:20px}
 
 
@@ -142,7 +144,7 @@ margin-top:20px}
         text-align: center;
 
     }
-    
+
     h2{font-size:   40px}
     .cr-time > span{ font-size: 25px;
       }
