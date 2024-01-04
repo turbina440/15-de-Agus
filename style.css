@@ -169,7 +169,7 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
         text-align: center;
      }
 
-     .corazon img{width: 200px;
+     .corazon img{width: 100px;
      animation:beat 1s linear infinite;}
 
     @keyframes beat{
