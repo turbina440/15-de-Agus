@@ -187,7 +187,7 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
     width: 80%;}
       }  
 
-@media screen and (min-width:400px)and(max-width:600px){
+/*@media screen and (min-width:400px)and(max-width:600px){
     .galeria{
         object-fit: cover ;
         text-align: center;
@@ -203,4 +203,4 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
             border-radius: 10px;
             padding: 0.1em 0.3em;}
 }
-
+*/
