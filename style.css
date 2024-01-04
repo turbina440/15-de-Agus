@@ -126,13 +126,13 @@ color: white;
 box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
 
 
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
     .galeria{
         object-fit: coverfont ;
         text-align: center;
 
     }
-    .cr-time > span{ font-size: 20px;}
+    .cr-time > span{ font-size: 10px;}
     .cr-block {
             
             border-radius: 10px;
