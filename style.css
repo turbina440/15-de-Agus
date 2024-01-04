@@ -132,11 +132,11 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
         text-align: center;
 
     }
-    .cr-time > span{ font-size: 25px;}
+    .cr-time > span{ font-size: 20px;}
     .cr-block {
             
             border-radius: 10px;
-            padding: 0.2em 0.4em;
+            padding: 0.1em 0.3em;
 
 
 }
