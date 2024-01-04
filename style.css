@@ -1,3 +1,5 @@
+/*movile first*/
+
 
 body {
             margin: 0;
@@ -14,26 +16,27 @@ body {
             padding: 0.5em;
         }
         .cr-time > span {
-            font-size: 42px;
+            font-size: 20px;
             font-weight: bold;
             color: #fff;
         }
         .cr-desc {
-            color: lightpink;
-                    
+            color: lightpink;font-size: 15px;
+
         }
         .cr-block {
             background: #8174b4;
             border-radius: 10px;
-            padding: 0.5em 0.8em;
+            padding: 0.3em 0.3em;
         }
+        p{font-family: Brush Script MT}
         /*.foto{width: 100%;
             background-color: yellowgreen;
             padding: 10px;
              display: flex;
              
          }*/
-         img{width: 50%;}
+         img{width: 300px;}
          h2{color: #C2BCDB;
         text-align: center;
     font-family: Brush Script MT , Geneva, Tahoma, sans-serif ;
@@ -73,8 +76,8 @@ height: 600px;
 overflow: hidden;}
 .slider ul{
     display: flex;
-    animation: cambio 20s infinite alternate linear;
-    width: 300%;
+    animation: cambio 16s infinite alternate linear;
+    width: 400%;
 }
 .slider li{
     width: 100%;
@@ -103,6 +106,7 @@ overflow: hidden;}
 
 
 }
+svg{margin-top: 40px}
 main {text-align: center;
 display:    none;}
 h2{
@@ -123,28 +127,35 @@ IFRAME{width: 300PX}
         }
     }
 button{background: blueviolet;
+    margin-top: 20px ;
 color: white;
 box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
+img{width: 200px;
+margin-top:20px}
 
 
-@media screen and (min-width:350) and(max-width:400px){
+/*responsive*/
+
+@media screen and (min-width:300px) AND (max-width:500px){
     .galeria{
-        object-fit: cover ;
+        object-fit: cover;
         text-align: center;
 
     }
-      .cr-desc {
-           
-                    font-size: 10px;color:yellow
-        }
-    .cr-time > span{ font-size: 15px;}
+    
+    h2{font-size:   40px}
+    .cr-time > span{ font-size: 25px;
+      }
     .cr-block {
             
             border-radius: 10px;
-            padding: 0.1em 0.3em;
+            padding: 0.3em 0.5em;
 
 
 }
+.cr-desc {
+           
+            font-size: 15px }
 
 /*whatsapp y corazon*/
 
@@ -161,15 +172,15 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
 
     .dd {background: snow}
 
-    .dd img{height: 50px;
+    .dd img{width:200px;
         margin-top:     20px;
-        width:  50px}
+        }
 
     .corazon{background: SNOW;
         text-align: center;
      }
 
-     .corazon img{width: 50px;
+     .corazon img{width: 300px;
      animation:beat 1s linear infinite;}
 
     @keyframes beat{
@@ -183,24 +194,49 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
         }
     }
     .c2 {background: yellow;}
-            .galeria__imagen{
-    width: 80%;}
       }  
+      img{width:200px;}
 
-/*@media screen and (min-width:400px)and(max-width:600px){
+@media screen and (min-width:500px) and (max-width:700px){
     .galeria{
-        object-fit: cover ;
+        object-fit: cover;
         text-align: center;
 
     }
-      .cr-desc {
-           
-                    font-size: 10px;color:red
+    
+    h2{font-size: 45px}
+    .cr-time > span{ font-size: 30px;
         }
-    .cr-time > span{ font-size: 15px;}
     .cr-block {
             
             border-radius: 10px;
-            padding: 0.1em 0.3em;}
+            padding: 0.5em 0.8em;
+
+
 }
-*/
+p{font-family: Brush Script MT}
+.cr-desc {
+           
+            font-size: 20px }
+}
+@media screen and (min-width:700px){
+    .galeria{
+        object-fit: cover;
+        text-align: center;
+
+    }
+    h2{font-size: 60px}
+    .cr-time > span{ font-size: 50px;
+        }
+    .cr-block {
+            
+            border-radius: 10px;
+            padding: 1em 1.5em;
+
+
+}
+img{width: 400px}
+.cr-desc {
+            
+            font-size: 30px }
+}
