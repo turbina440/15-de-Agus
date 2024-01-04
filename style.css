@@ -127,7 +127,7 @@ color: white;
 box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
 
 
-@media screen and (max-width:300px){
+@media screen and (max-width:550px){
     .galeria{
         object-fit: cover ;
         text-align: center;
@@ -185,7 +185,7 @@ box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
     .c2 {background: yellow;}
       }  
 
-@media screen and (max-width:300px)and(min-width:500px){
+@media screen and (max-width:550px)and(min-width:760px){
     .galeria{
         object-fit: cover ;
         text-align: center;
