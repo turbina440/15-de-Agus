@@ -127,7 +127,7 @@ color: white;
 box-shadow:0 0 20px #00fffb, 0 0 40px #0081bc;}
 
 
-@media screen and (max-width:400px){
+@media screen all and (min-width:400px) or (max-width:400px){
     .galeria{
         object-fit: coverfont ;
         text-align: center;
