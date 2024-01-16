@@ -412,6 +412,11 @@ img{width: 200px;
 .regalos > h2 {
      color:blueviolet;font-family: Brush Script MT , Geneva, Tahoma, sans-serifh3
 }
+.ropa img{width: 40%}
+.ropa p{color: font-family: cursive monospace;
+	font-size: 2px
+}
+.ropa{width: 200px}
 
 /*responsive*/
 
