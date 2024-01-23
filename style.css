@@ -169,10 +169,6 @@ img{width: 200px;
 .ropa{ margin-top:40px;}
 
 
-
-.ropa img{width: 60%;
-padding: 20px}
-
 /*responsive*/
 
 @media screen and (min-width:300px) AND (max-width:500px){
