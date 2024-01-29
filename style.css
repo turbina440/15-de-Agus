@@ -35,13 +35,13 @@ body {
             padding: 0.1em 0.3em;
             box-shadow:    10px 5px 5px hotpink ;
         }
-        p{font-family: Brush Script MT;
+        p{font-family:"Great Vibes" , Brush Script MT;
             padding: 5px}
        
          
          h2{color: white    ;
         text-align: center;
-    font-family: Brush Script MT , Geneva, Tahoma, sans-serif ;
+    font-family: "Great Vibes" ,Brush Script MT , Geneva, Tahoma, sans-serif ;
     margin-bottom: 0px;
     padding: 10px 10px;
     margin-top: 0px;
@@ -54,7 +54,7 @@ line-height:    0.7em;
 outline: none   ;
 animation:  animate 5s linear infinite  ;
 }*/
-h1{font-family: Brush Script MT , Geneva, Tahoma, sans-serif }
+h1{font-family: "Great Vibes" ,Brush Script MT , Geneva, Tahoma, sans-serif }
 
         
     .galeria{
@@ -164,7 +164,8 @@ img{width: 200px;
     margin-top: 150px;
 }
 .regalos > h2 {
-     color:blueviolet;font-family: Brush Script MT , Geneva, Tahoma, sans-serifh3
+     color:blueviolet;
+     font-family: "Great Vibes" ,Brush Script MT , Geneva, Tahoma, sans-serifh3
 }
 .ropa{ margin-top:40px;}
 
@@ -207,7 +208,7 @@ img{width: 200px;
        
     }
     p {
-    font-family: Brush Script MT}
+    font-family: "Great Vibes" ,Brush Script MT}
 
     .dd {background: snow}
 
@@ -261,7 +262,7 @@ img{width: 200px;
 
 
 }
-p{font-family: Brush Script MT}
+p{font-family: "Great Vibes" ,Brush Script MT}
 .cr-desc {
            
             font-size: 20px }
