@@ -152,7 +152,7 @@ IFRAME{width: 300PX}
     }
 button{background: blueviolet;
     border-radius: 10px;
-    margin: 20px 0 0 20px ;
+    margin: 20px 20px ;
 color: white;
 }
 img{width: 200px;
@@ -293,9 +293,9 @@ img{width: 400px}
 }
 
 
-.box{
+.box{height:40px;
     position: absolute;
-    top: 100%; /*80%*/
+    top: 50%; /*80%*/
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
