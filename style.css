@@ -307,6 +307,10 @@ img{width: 400px}
 .box h1{
     font-size: 6vw;
     color: lightpink;
+            
+    margin-top: 0px;/*opcional*/
+    margin-bottom: 0px;
+
 }
 @keyframes anim {
     0%{width:0 ;
