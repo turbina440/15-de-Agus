@@ -299,7 +299,7 @@ img{width: 400px}
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    outline: 1vw solid blueviolet;
+   /* outline: 1vw solid blueviolet;*/
     overflow: hidden;
     animation: anim 2.5s linear forwards;
 }
