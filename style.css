@@ -326,6 +326,9 @@ img{width: 400px}
     80%{width: 80vw;
 height:12vw ;
     }
+    100%{width:80vw ;
+height:12vw ;
+    }        
             .carousel-wrapper {
   height: 400px;
   position: relative;
@@ -394,9 +397,7 @@ height:12vw ;
   z-index: 3;
   opacity: 1;
 } 
-    100%{width:80vw ;
-height:12vw ;
-    }
+    
 .dress img{
     width:  350px;
 } 	
