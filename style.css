@@ -329,7 +329,13 @@ height:12vw ;
     100%{width:80vw ;
 height:12vw ;
     }        
-            .carousel-wrapper {
+           
+    
+.dress img{
+    width:  350px;
+} 	
+}
+ .carousel-wrapper {
   height: 400px;
   position: relative;
   width: 300px;
@@ -397,10 +403,5 @@ height:12vw ;
   z-index: 3;
   opacity: 1;
 } 
-    
-.dress img{
-    width:  350px;
-} 	
-}
 
 
