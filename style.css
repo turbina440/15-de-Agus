@@ -380,15 +380,15 @@ height:12vw ;
 .item-1 {
   z-index: 2;
   opacity: 1;
-  background: url('photo-cv.jpg');
+  background: url('agus1.jpg');
   background-size: cover;
 }
 .item-2 {
-  background: url('sup2.png');
+  background: url('agus2.jpg');
   background-size: cover;
 }
 .item-3 {
-  background: url('sup.webp');
+  background: url('agus3.jpg');
   background-size: cover;
 }
 
