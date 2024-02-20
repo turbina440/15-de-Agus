@@ -342,6 +342,7 @@ height:12vw ;
   display: block;
   margin: 50px auto ;
   border: 2px solid black;
+  margin-top:250px;           
 }
 
 .carousel-item {
