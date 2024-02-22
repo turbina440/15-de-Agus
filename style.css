@@ -10,7 +10,7 @@ body {
             top: 0;
             z-index: 10} 
         .portada img{border-radius:  50%;
-            width: 250px;
+            width: 200px;
             outline-style: dashed;}
         .cuenta-regresiva {
             background: linear-gradient(#534a7a,lightpink,snow);
