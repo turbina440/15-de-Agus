@@ -242,7 +242,10 @@ img{width: 200px;
    .elementor-row1{text-align: center;
     margin: 0 10px 0 ;
     border-radius: 20px;
-    background: #E9E7EB;}  
+    background: #E9E7EB;} 
+	.portada{width: 100%;
+    margin-top: 250px;
+text-align:     center  ;} 
 }
 
 
@@ -337,7 +340,7 @@ height:12vw ;
  .carousel-wrapper {
   height: 400px;
   position: relative;
-  width: 300px;
+  width: 270px;
   display: block;
   margin: 50px auto ;
   border: 2px solid black;
