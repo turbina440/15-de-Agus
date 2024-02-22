@@ -8,7 +8,7 @@ body {
         }
         .main{position: fixed;
             top: 0;
-            z-index: 10}
+            z-index: 10} 
         .portada img{border-radius:  50%;
             width: 250px;
             outline-style: dashed;}
@@ -84,16 +84,16 @@ text-align:     center  ;}
     background: #E9E7EB;}
 .galeria__imagen{
     width: 100%;
-    left: 0;
+   left: 0;
     position: sticky;
     border-radius: 5px;
     scroll-snap-align: center;
-    object-fit: cover;
+   
      text-align: center;
     justify-content: center;
     margin-top: 40px;
     z-index: 1;
-   
+   object-fit: cover;
 }
 /*nuevas fotos*/
 .slider{width: 100%;
@@ -158,7 +158,9 @@ color: white;
 img{width: 200px;
 }
 
-#modal::backdrop{background-color:  rgba(0, 0, 0,.55);}
+#modal::backdrop{background-color:  rgba(0, 0, 0,.55);
+}
+#modal p{font-family: arial, sans-serif;}
 #abrirModal{margin-bottom: 50px}
 .regalos{
     margin-top: 150px;
@@ -233,8 +235,7 @@ img{width: 200px;
 
         }
     }
-     .regalos{
-    margin-top: 300px;}
+   
         
       img{width:200px;}
    .elementor-row1{text-align: center;
@@ -293,7 +294,7 @@ img{width: 400px}
 }
 
 
-.box{height:70px;
+.box{height:100px;
     position: absolute;
     top: 70%; /*80%*/
     left: 50%;
@@ -305,8 +306,8 @@ img{width: 400px}
 }
 
 .box h1{
-    font-size: 6vw;
-    color: lightpink;
+    font-size: 5vw;
+    color: blueviolet;
             
     margin-top: 0px;/*opcional*/
     margin-bottom: 0px;
@@ -330,10 +331,7 @@ height:12vw ;
 height:12vw ;
     }        
            
-    
-.dress img{
-    width:  350px;
-} 	
+	
 }
  .carousel-wrapper {
   height: 400px;
@@ -381,15 +379,15 @@ height:12vw ;
 .item-1 {
   z-index: 2;
   opacity: 1;
-  background: url('agus1.jpg');
+  background: url('agus10.jpg');
   background-size: cover;
 }
 .item-2 {
-  background: url('agus2.jpg');
+  background: url('agus8.jpg');
   background-size: cover;
 }
 .item-3 {
-  background: url('agus3.jpg');
+  background: url('agus5.jpg');
   background-size: cover;
 }
 
@@ -404,5 +402,3 @@ height:12vw ;
   z-index: 3;
   opacity: 1;
 } 
-
-
