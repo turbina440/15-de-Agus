@@ -161,7 +161,8 @@ img{width: 200px;
 
 #modal::backdrop{background-color:  rgba(0, 0, 0,.55);
 }
-#modal p{font-family: arial, sans-serif;}
+#modal p{font-family: arial, sans-serif;
+	font-size:15px}
 #abrirModal{margin-bottom: 50px}
 .regalos{
     margin-top: 150px;
